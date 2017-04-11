@@ -1,0 +1,188 @@
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\obj\Debug\IntermediateService.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\csc.exe
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\csc.exe.config
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\csc.rsp
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\csi.exe
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\csi.rsp
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\System.AppContext.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\System.Collections.Immutable.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\System.IO.FileSystem.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\vbc.exe
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\vbc.exe.config
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\vbc.rsp
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\VBCSCompiler.exe
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\roslyn\VBCSCompiler.exe.config
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\IntermediateService.dll.config
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\IntermediateService.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\IntermediateService.pdb
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\ORM.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\System.Web.Helpers.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\System.Web.Mvc.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\System.Web.Razor.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\System.Web.Webpages.Deployment.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\System.Web.Webpages.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\System.Web.Webpages.Razor.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\EntityFramework.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\ORM.pdb
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\ORM.dll.config
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\System.Web.Razor.xml
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\System.Web.Webpages.xml
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\System.Web.Webpages.Deployment.xml
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\System.Web.Webpages.Razor.xml
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\System.Web.Helpers.xml
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\System.Web.Mvc.xml
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\EntityFramework.xml
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\obj\Debug\IntermediateService.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\obj\Debug\IntermediateService.pdb
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\Newtonsoft.Json.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\System.Net.Http.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\System.Net.Http.Extensions.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\System.Net.Http.Formatting.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\System.Net.Http.Primitives.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\System.Net.Http.WebRequest.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\Newtonsoft.Json.xml
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\System.Net.Http.xml
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\System.Net.Http.WebRequest.xml
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\EntityFramework.SqlServer.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\IntermediateService\bin\EntityFramework.SqlServer.xml
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\obj\Debug\IntermediateService.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\obj\Debug\IntermediateService.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\obj\Debug\IntermediateService.pdb
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\csc.exe
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\csc.exe.config
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\csc.rsp
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\csi.exe
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\csi.rsp
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\System.AppContext.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\System.Collections.Immutable.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\System.IO.FileSystem.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\vbc.exe
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\vbc.exe.config
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\vbc.rsp
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\VBCSCompiler.exe
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\VBCSCompiler.exe.config
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\IntermediateService.dll.config
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\IntermediateService.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\IntermediateService.pdb
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\EntityFramework.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\EntityFramework.SqlServer.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\Newtonsoft.Json.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\ORM.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Net.Http.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Net.Http.Extensions.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Net.Http.Formatting.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Net.Http.Primitives.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Net.Http.WebRequest.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Helpers.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Mvc.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Razor.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Webpages.Deployment.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Webpages.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Webpages.Razor.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\ORM.pdb
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\ORM.dll.config
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\EntityFramework.xml
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\EntityFramework.SqlServer.xml
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\Newtonsoft.Json.xml
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Net.Http.xml
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Net.Http.WebRequest.xml
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Razor.xml
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Webpages.xml
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Webpages.Deployment.xml
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Webpages.Razor.xml
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Helpers.xml
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Mvc.xml
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\csc.exe
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\csc.exe.config
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\csc.rsp
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\csi.exe
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\csi.rsp
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\System.AppContext.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\vbc.exe
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\vbc.exe.config
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\vbc.rsp
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\VBCSCompiler.exe
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\IntermediateService.dll.config
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\IntermediateService.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\IntermediateService.pdb
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\EntityFramework.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\EntityFramework.SqlServer.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\Newtonsoft.Json.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\ORM.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Net.Http.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Net.Http.Extensions.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Net.Http.Formatting.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Net.Http.Primitives.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Net.Http.WebRequest.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Helpers.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Mvc.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Razor.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Webpages.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Webpages.Razor.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\ORM.pdb
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\EntityFramework.xml
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\EntityFramework.SqlServer.xml
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\Newtonsoft.Json.xml
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Net.Http.xml
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Net.Http.WebRequest.xml
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Razor.xml
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Webpages.xml
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Webpages.Razor.xml
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Helpers.xml
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\bin\System.Web.Mvc.xml
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\obj\Debug\IntermediateService.csprojResolveAssemblyReference.cache
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\obj\Debug\IntermediateService.dll
+C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\IntermediateService\obj\Debug\IntermediateService.pdb

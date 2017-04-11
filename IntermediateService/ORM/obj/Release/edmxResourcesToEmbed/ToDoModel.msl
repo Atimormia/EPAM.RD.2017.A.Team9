@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ToDoDataBaseModelStoreContainer" CdmEntityContainer="ToDoDataBaseEntities">
+    <EntitySetMapping Name="Tasks">
+      <EntityTypeMapping TypeName="ToDoDataBaseModel.Task">
+        <MappingFragment StoreEntitySet="Tasks">
+          <ScalarProperty Name="ToDoId" ColumnName="ToDoId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
