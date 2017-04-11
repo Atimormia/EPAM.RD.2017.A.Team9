@@ -1,4 +1,4 @@
-﻿function TodoController($scope) {
+﻿function TodoController($scope, $http) {
     $scope.appTitle = "ToDo App";
     $scope.appHeadline = "Team9";
     $scope.saved = localStorage.getItem('todos');
@@ -13,9 +13,18 @@
         $scope.todoText = ''; //clear the input after adding
         localStorage.setItem('todos', JSON.stringify($scope.todos));
 
+        var newItem = {
+            IsCompleted: false,
+            Name: $scope.todoText
+        };
         //calling controller method
-        tasksManager.createTask($scope.todo.done,$scope.todoText)
-            .then(tasksManager.loadTasks);
+        $http({
+            method: "PUT",
+            url: "/api/todos",
+            data: newItem
+        });
+        //tasksManager.createTask($scope.todo.done,$scope.todoText)
+        //    .then(tasksManager.loadTasks);
     };
 
     $scope.remaining = function () {
