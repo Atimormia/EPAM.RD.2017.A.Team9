@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Configuration;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -19,7 +20,7 @@ namespace ToDoClient.Services
         /// <summary>
         /// The url for users' creation.
         /// </summary>
-        private const string CreateUrl = "Users";
+        private const string CreateUrl = "Users?name={0}";
 
         private readonly HttpClient httpClient;
         
@@ -39,9 +40,8 @@ namespace ToDoClient.Services
         /// <returns>The User Id.</returns>
         public int CreateUser(string userName)
         {
-            var response = httpClient.PostAsJsonAsync(serviceApiUrl + CreateUrl, userName).Result;
-            response.EnsureSuccessStatusCode();
-            return response.Content.ReadAsAsync<int>().Result;
+            var response = httpClient.GetStringAsync(string.Format(serviceApiUrl + CreateUrl, userName)).Result;
+            return JsonConvert.DeserializeObject<int>(response);
         }
 
         /// <summary>
@@ -56,7 +56,7 @@ namespace ToDoClient.Services
             // No user cookie or it's damaged
             if (userCookie == null || !Int32.TryParse(userCookie.Value, out userId))
             {
-                userId = CreateUser("Noname: " + Guid.NewGuid());
+                userId = CreateUser(Guid.NewGuid().ToString());
 
                 // Store the user in a cookie for later access
                 var cookie = new HttpCookie("user", userId.ToString())

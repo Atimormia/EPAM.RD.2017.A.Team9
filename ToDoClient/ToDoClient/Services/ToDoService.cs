@@ -20,22 +20,22 @@ namespace ToDoClient.Services
         /// <summary>
         /// The url for getting all todos.
         /// </summary>
-        private const string GetAllUrl = "ToDos?userId={0}";
+        private const string GetAllUrl = "GetTasks?userId={0}";
 
         /// <summary>
         /// The url for updating a todo.
         /// </summary>
-        private const string UpdateUrl = "ToDos";
+        private const string UpdateUrl = "UpdateTask";
 
         /// <summary>
         /// The url for a todo's creation.
         /// </summary>
-        private const string CreateUrl = "ToDos";
+        private const string CreateUrl = "CreateTask";
 
         /// <summary>
         /// The url for a todo's deletion.
         /// </summary>
-        private const string DeleteUrl = "ToDos/{0}";
+        private const string DeleteUrl = "Delete";
 
         private readonly HttpClient httpClient;
 
@@ -75,7 +75,7 @@ namespace ToDoClient.Services
         /// <param name="item">The todo to update.</param>
         public void UpdateItem(ToDoItemViewModel item)
         {
-            httpClient.PutAsJsonAsync(serviceApiUrl + UpdateUrl, item)
+            httpClient.PostAsJsonAsync(serviceApiUrl + UpdateUrl, item)
                 .Result.EnsureSuccessStatusCode();
         }
 
@@ -85,8 +85,7 @@ namespace ToDoClient.Services
         /// <param name="id">The todo Id to delete.</param>
         public void DeleteItem(int id)
         {
-            httpClient.DeleteAsync(string.Format(serviceApiUrl + DeleteUrl, id))
-                .Result.EnsureSuccessStatusCode();
+            var responce = httpClient.GetStringAsync($"{serviceApiUrl}{DeleteUrl}?id={id}").Result;
         }
     }
 }
