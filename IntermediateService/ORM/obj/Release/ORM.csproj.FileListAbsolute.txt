@@ -1,0 +1,11 @@
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Release\ToDoDataBase.mdf
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Release\ToDoDataBase_log.ldf
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Release\ORM.dll.config
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Release\ORM.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Release\ORM.pdb
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Release\EntityFramework.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Release\EntityFramework.SqlServer.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Release\EntityFramework.xml
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Release\EntityFramework.SqlServer.xml
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\obj\Release\ORM.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\obj\Release\ORM.pdb

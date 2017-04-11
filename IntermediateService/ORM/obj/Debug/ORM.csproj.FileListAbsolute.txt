@@ -1,0 +1,12 @@
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Debug\ToDoDataBase.mdf
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Debug\ToDoDataBase_log.ldf
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Debug\EntityFramework.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Debug\EntityFramework.xml
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\obj\Debug\ORM.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\obj\Debug\ORM.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\obj\Debug\ORM.pdb
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Debug\ORM.dll.config
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Debug\ORM.dll
+D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Debug\ORM.pdb

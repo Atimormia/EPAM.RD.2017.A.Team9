@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntermediateService", "IntermediateService\IntermediateService.csproj", "{EB99FD0F-30B6-42F7-8B23-DD2947499977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORM", "ORM\ORM.csproj", "{BE2A7A6F-D5C1-4B7E-8FA5-E8E314098D71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB99FD0F-30B6-42F7-8B23-DD2947499977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB99FD0F-30B6-42F7-8B23-DD2947499977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB99FD0F-30B6-42F7-8B23-DD2947499977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB99FD0F-30B6-42F7-8B23-DD2947499977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE2A7A6F-D5C1-4B7E-8FA5-E8E314098D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE2A7A6F-D5C1-4B7E-8FA5-E8E314098D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE2A7A6F-D5C1-4B7E-8FA5-E8E314098D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE2A7A6F-D5C1-4B7E-8FA5-E8E314098D71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
