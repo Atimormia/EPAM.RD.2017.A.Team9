@@ -89,6 +89,7 @@
     <Content Include="Scripts\jquery-3.1.0.min.js" />
     <Content Include="Scripts\jquery-3.1.0.slim.js" />
     <Content Include="Scripts\jquery-3.1.0.slim.min.js" />
+    <Content Include="Scripts\todo-angular.js" />
     <Content Include="Scripts\todo.js" />
     <Content Include="Styles\site.css" />
     <Content Include="Web.config" />
