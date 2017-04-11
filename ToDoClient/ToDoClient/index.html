@@ -1,32 +1,37 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>ToDo list</title>
-    <meta charset="utf-8"/>
-    
-    <link rel="stylesheet" type="text/css" href="Styles/site.css">
-
-    <script src="Scripts/jquery-3.1.0.js" language="javascript"></script>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="Scripts/todo.js" language="javascript"></script>
 </head>
 <body>
-    <table id="tasks">
-        <thead>
-            <tr>
-                <th>Completed</th>
-                <th>Task</th>
-                <th>Actions</th>
-            </tr>
+
+    <div class="container">
+        <h2>ToDo App</h2>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Completed</th>
+                    <th>Task</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
             <!-- The row for creating new items. -->
-            <tr id="new">
-                <td><input type='checkbox' id="newCompleted" /></td>
-                <td><input type='text' id="newName" /></td>
-                <td><input type='button' id="newCreate" value='Create' /></td>
-            </tr>
-        </thead>
-        <tbody>
-            
-        </tbody>
-    </table>
+            <tbody>
+                <tr id="new">
+                    <td><input type='checkbox' id="newCompleted" /></td>
+                    <td><input type='text' id="newName" /></td>
+                    <td><input class="btn btn-default btn-xs" type='button' id="newCreate" value='Create' /></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
 </body>
 </html>
+
