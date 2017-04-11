@@ -65,7 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Task.cs">
+    <Compile Include="ToDoItem.cs">
       <DependentUpon>ToDoModel.tt</DependentUpon>
     </Compile>
     <Compile Include="ToDoModel.Context.cs">
@@ -85,33 +85,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ToDoDataBase.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="ToDoDataBase_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>ToDoDataBase.mdf</DependentUpon>
-    </Content>
-    <Content Include="ToDoModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>ToDoModel.Context.cs</LastGenOutput>
-      <DependentUpon>ToDoModel.edmx</DependentUpon>
-    </Content>
-    <Content Include="ToDoModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ToDoModel.edmx</DependentUpon>
-      <LastGenOutput>ToDoModel.cs</LastGenOutput>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
     <EntityDeploy Include="ToDoModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>ToDoModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.Config" />
-    <None Include="packages.config" />
     <None Include="ToDoModel.edmx.diagram">
       <DependentUpon>ToDoModel.edmx</DependentUpon>
     </None>
@@ -130,6 +109,18 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ToDoModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ToDoModel.edmx</DependentUpon>
+      <LastGenOutput>ToDoModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ToDoModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ToDoModel.edmx</DependentUpon>
+      <LastGenOutput>ToDoModel.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

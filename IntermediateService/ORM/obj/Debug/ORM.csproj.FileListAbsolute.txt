@@ -1,5 +1,3 @@
-D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Debug\ToDoDataBase.mdf
-D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Debug\ToDoDataBase_log.ldf
 D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Debug\EntityFramework.dll
 D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Debug\EntityFramework.SqlServer.dll
 D:\Documents\Visual Studio 2017\Projects\IntermediateService\ORM\bin\Debug\EntityFramework.xml

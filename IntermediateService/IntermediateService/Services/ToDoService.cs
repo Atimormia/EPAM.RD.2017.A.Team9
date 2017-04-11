@@ -53,27 +53,28 @@ namespace ToDoClient.Services
         /// </summary>
         /// <param name="userId">The User Id.</param>
         /// <returns>The list of todos.</returns>
-        public IList<Task> GetItems(int userId)
+        public IList<ToDoItem> GetItems(int userId)
         {
             var dataAsString = httpClient.GetStringAsync(string.Format(serviceApiUrl + GetAllUrl, userId)).Result;
-            return JsonConvert.DeserializeObject<IList<Task>>(dataAsString);
+            return JsonConvert.DeserializeObject<IList<ToDoItem>>(dataAsString);
         }
 
         /// <summary>
         /// Creates a todo. UserId is taken from the model.
         /// </summary>
         /// <param name="item">The todo to create.</param>
-        public void CreateItem(Task item)
+        public void CreateItem(ToDoItem item)
         {
-            httpClient.PostAsJsonAsync(serviceApiUrl + CreateUrl, item)
-                .Result.EnsureSuccessStatusCode();
+            var res = httpClient.PostAsJsonAsync(serviceApiUrl + CreateUrl, item)
+                .Result;
+            res.EnsureSuccessStatusCode();
         }
 
         /// <summary>
         /// Updates a todo.
         /// </summary>
         /// <param name="item">The todo to update.</param>
-        public void UpdateItem(Task item)
+        public void UpdateItem(ToDoItem item)
         {
             httpClient.PutAsJsonAsync(serviceApiUrl + UpdateUrl, item)
                 .Result.EnsureSuccessStatusCode();

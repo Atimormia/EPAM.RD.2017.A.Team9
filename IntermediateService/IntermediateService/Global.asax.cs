@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using ORM;
 
 namespace IntermediateService
 {
@@ -13,7 +14,6 @@ namespace IntermediateService
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            
         }
     }
 }

@@ -25,6 +25,6 @@ namespace ORM
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Task> Tasks { get; set; }
+        public virtual DbSet<ToDoItem> ToDoItems { get; set; }
     }
 }
