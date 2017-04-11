@@ -4,7 +4,7 @@
     // @parentSelector: selector to append a row to.
     // @obj: task object to append.
     var appendRow = function(parentSelector, obj) {
-        var tr = $("<tr data-id='" + obj.Id + "'></tr>");
+        var tr =$("<tr data-id='" + obj.Id + "'></tr>");
         tr.append("<td><input type='checkbox' class='completed' " + (obj.IsCompleted ? "checked" : "") + "/></td>");
         tr.append("<td class='name' >" + obj.Name + "</td>");
         tr.append("<td><input type='button' class='btn btn-default btn-xs delete-button' value='Delete' /></td>");
@@ -84,7 +84,8 @@ $(function () {
     $("#newCreate").click(function() {
         var isCompleted = $('#newCompleted')[0].checked;
         var name = $('#newName')[0].value;
-
+        $("#newName")[0].value = '';
+        $("#tasks > tbody").html("<tr> <td colspan='3'><div class='loading_div'></div></td> </tr>");
         tasksManager.createTask(isCompleted, name)
             .then(tasksManager.loadTasks)
             .done(function(tasks) {
@@ -98,7 +99,6 @@ $(function () {
         var taskId = tr.attr("data-id");
         var isCompleted = tr.find('.completed')[0].checked;
         var name = tr.find('.name').text();
-        
         tasksManager.updateTask(taskId, isCompleted, name)
             .then(tasksManager.loadTasks)
             .done(function (tasks) {
@@ -109,6 +109,7 @@ $(function () {
     // bind delete button click for future rows
     $('#tasks > tbody').on('click', '.delete-button', function() {
         var taskId = $(this).parent().parent().attr("data-id");
+        $("#tasks > tbody").html("<tr> <td colspan='3'><div class='loading_div'></div></td> </tr>");
         tasksManager.deleteTask(taskId)
             .then(tasksManager.loadTasks)
             .done(function(tasks) {

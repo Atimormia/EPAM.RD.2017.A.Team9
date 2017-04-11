@@ -15,9 +15,12 @@ namespace IntermediateService.Controllers
 
         private readonly ToDoService todoService = new ToDoService();
         private readonly UserService userService = new UserService();
-        private readonly ReaderWriterLockSlim locker = new ReaderWriterLockSlim();
+        private readonly ReaderWriterLockSlim userIdlocker = new ReaderWriterLockSlim();
+        private readonly ReaderWriterLockSlim deletinglocker = new ReaderWriterLockSlim();
+        private readonly ReaderWriterLockSlim updatinglocker = new ReaderWriterLockSlim();
         private DbContext context = new ToDoDataBaseEntities();
         private static List<ToDoItem> deletingQueue = new List<ToDoItem>();
+        private static List<ToDoItem> updatingQueue = new List<ToDoItem>();
         private static List<int> usersId = new List<int>();
 
         /// <summary>
@@ -39,7 +42,22 @@ namespace IntermediateService.Controllers
             var currentTask = context.Set<ToDoItem>().First(t => t.Id == todo.Id);
             currentTask.IsCompleted = todo.IsCompleted;
             context.SaveChanges();
-            Task.Run(() => todoService.UpdateItem(currentTask));
+            if (todo.ToDoId == 0)
+            {
+                updatinglocker.EnterWriteLock();
+                try
+                {
+                    updatingQueue.Add(todo);
+                }
+                finally
+                {
+                    updatinglocker.ExitWriteLock();
+                }
+            }
+            else
+            {
+                Task.Run(() => todoService.UpdateItem(currentTask));
+            }
         }
 
         /// <summary>
@@ -52,7 +70,15 @@ namespace IntermediateService.Controllers
             int currentTaskToDoId = (int)currentTask.ToDoId;
             if (currentTaskToDoId == 0)
             {
-                deletingQueue.Add(currentTask);
+                deletinglocker.EnterWriteLock();
+                try
+                {
+                    deletingQueue.Add(currentTask);
+                }
+                finally
+                {
+                    deletinglocker.ExitWriteLock();
+                }
             }
             else
             {
@@ -68,7 +94,8 @@ namespace IntermediateService.Controllers
         /// <param name="todo">The todo-item to create.</param>
         public void CreateTask(ToDoItem todo)
         {
-            Task.Run(() => {
+            Task.Run(() =>
+            {
                 todoService.CreateItem(todo);
                 UpdateDB(todo.UserId);
             });
@@ -84,7 +111,7 @@ namespace IntermediateService.Controllers
 
         private void CheckUserId(int id)
         {
-            locker.EnterReadLock();
+            userIdlocker.EnterReadLock();
             try
             {
                 if (usersId.Contains(id))
@@ -92,7 +119,7 @@ namespace IntermediateService.Controllers
             }
             finally
             {
-                locker.ExitReadLock();
+                userIdlocker.ExitReadLock();
             }
             usersId.Add(id);
             UpdateDB(id);
@@ -100,46 +127,89 @@ namespace IntermediateService.Controllers
 
         private void UpdateDB(int id)
         {
-            locker.EnterWriteLock();
+            userIdlocker.EnterWriteLock();
             try
             {
                 var currentTasks = todoService.GetItems(id);
-                foreach(var task in currentTasks)
+                foreach (var task in currentTasks)
                 {
                     var str = new StringBuilder(task.Name);
-                    while (str[str.Length-1]==' ')
+                    while (str[str.Length - 1] == ' ')
                     {
                         str.Remove(str.Length - 1, 1);
                     }
                     task.Name = str.ToString();
                     var currTask = context.Set<ToDoItem>().FirstOrDefault(t => t.ToDoId == task.ToDoId);
-                    if (currTask == null)
-                    {
-                        currTask = context.Set<ToDoItem>().FirstOrDefault(t => t.ToDoId == 0);
-                    }
                     if (currTask != null)
                     {
-                        currTask.ToDoId = task.ToDoId;
+                        ToDoItem taskForUpdate = null;
+                        updatinglocker.EnterReadLock();
+                        try
+                        {
+                            taskForUpdate = updatingQueue.FirstOrDefault(t => t.Id == task.Id);
+                        }
+                        finally
+                        {
+                            updatinglocker.ExitReadLock();
+                        }
+                        if (taskForUpdate != null)
+                        {
+                            Task.Run(() => todoService.UpdateItem(taskForUpdate));
+                            updatinglocker.EnterWriteLock();
+                            try
+                            {
+                                updatingQueue.Remove(taskForUpdate);
+                            }
+                            finally
+                            {
+                                updatinglocker.ExitWriteLock();
+                            }
+                        }
                     }
                     else
                     {
-                        var taskForRemove = deletingQueue.FirstOrDefault(t => t.Name == task.Name && t.IsCompleted == task.IsCompleted);
-                        if (taskForRemove != null)
+                        currTask = context.Set<ToDoItem>().FirstOrDefault(t => t.ToDoId == 0);
+                        if (currTask != null)
                         {
-                            deletingQueue.Remove(taskForRemove);
-                            todoService.DeleteItem((int)task.ToDoId);
+                            currTask.ToDoId = task.ToDoId;
                         }
                         else
                         {
-                            context.Set<ToDoItem>().Add(task);
-                            context.SaveChanges();
+                            ToDoItem taskForRemove = null;
+                            deletinglocker.ExitReadLock();
+                            try
+                            {
+                                deletingQueue.FirstOrDefault(t => t.Name == task.Name && t.IsCompleted == task.IsCompleted);
+                            }
+                            finally
+                            {
+                                deletinglocker.ExitReadLock();
+                            }
+                            if (taskForRemove != null)
+                            {
+                                deletinglocker.EnterWriteLock();
+                                try
+                                {
+                                    deletingQueue.Remove(taskForRemove);
+                                }
+                                finally
+                                {
+                                    deletinglocker.ExitWriteLock();
+                                }
+                                Task.Run(() => todoService.DeleteItem((int)task.ToDoId));
+                            }
+                            else
+                            {
+                                context.Set<ToDoItem>().Add(task);
+                                context.SaveChanges();
+                            }
                         }
                     }
                 }
             }
             finally
             {
-                locker.ExitWriteLock();
+                userIdlocker.ExitWriteLock();
             }
         }
     }

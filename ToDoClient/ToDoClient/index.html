@@ -8,27 +8,38 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="Scripts/todo.js" language="javascript"></script>
+    <style>
+        .loading_div {
+            background: url('Content/loading.gif') no-repeat center center;
+            height:200px;
+        }
+    </style>
 </head>
 <body>
 
-    <div class="container">
+    <div class="container" >
         <h2>ToDo App</h2>
-        <table class="table table-hover">
+        <table id="tasks" class="table table-hover">
             <thead>
                 <tr>
                     <th>Completed</th>
                     <th>Task</th>
                     <th>Actions</th>
                 </tr>
-            </thead>
-            <!-- The row for creating new items. -->
-            <tbody>
+                <!-- The row for creating new items. -->
                 <tr id="new">
                     <td><input type='checkbox' id="newCompleted" /></td>
                     <td><input type='text' id="newName" /></td>
                     <td><input class="btn btn-default btn-xs" type='button' id="newCreate" value='Create' /></td>
                 </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td colspan="3"><div class="loading_div"></div></td>
+                </tr>
             </tbody>
+            
+
         </table>
     </div>
 
