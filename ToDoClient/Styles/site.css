@@ -50,7 +50,9 @@ padding: 5px 0px 5px 10px;
 margin-bottom: 50px;
 background: #ecf0f1;
 }
-
+.right {
+    float: right;
+}
 ul {
 list-style: none;
 padding-left: 0;

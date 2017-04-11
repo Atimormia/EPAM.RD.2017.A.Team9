@@ -7,55 +7,49 @@
     <link rel="stylesheet" type="text/css" href="Styles/site.css">
     <script src="Scripts/jquery-3.1.0.js" language="javascript"></script>
     <script src="Scripts/todo.js" language="javascript"></script>
-    <!--<script src="Scripts/todo-angular.js" language="javascript"></script>-->
+    <script src="Scripts/todo-angular.js" language="javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js" language="javascript"></script>
 </head>
-<body> 
-     <table id="tasks"> 
-             <thead> 
-            <tr> 
-                <th>Completed</th> 
-                <th>Task</th> 
-                 <th>Actions</th> 
-             </tr> 
 
-<!--<body data-ng-app="">
+<body data-ng-app="">
     <div class="container" data-ng-controller="TodoController">
         <header class="app-header">
             <h1 class="app-title">{{ appTitle }}</h1>
             <h1 class="app-headline">{{ appHeadline }}</h1>
         </header>
 
-        <section class="app-body">-->
+        <section class="app-body">
             <!-- Adding item form -->
-            <!--<form data-ng-submit="addTodo()" class="todo-form">
+            <form data-ng-submit="addTodo()" class="todo-form">
                 <input type="text" data-ng-model="todoText" placeholder="Enter new ToDo item" />
                 <br />
                 <input type="submit" value="Add Task" />
-            </form>-->
+            </form>
 
             <!-- items -->
-            <!--<ul class="unstyled">
+            <ul class="unstyled">
                 <li data-ng-repeat="todo in todos track by $index">
                     <input type="checkbox" data-ng-model="todo.done">
                     <span class="done-{{ todo.done }}">{{ todo.text }}</span>
+                    <input type="button" class="right delete-button" value="Delete">
                 </li>
-            </ul>-->
+            </ul>
 
             <!--Removing items-->
-            <!--<section class="archive-control">
+            <section class="archive-control">
                 <span>{{ remaining() }} of {{ todos.length }} remaining</span>
                 <p>[ <a href="" data-ng-click="archive()">Remove Completed Items</a> ]</p>
-            </section>-->
+            </section>
 
-            <tr id="new">
+            <!--<tr id="new">
                 <td><input type='checkbox' id="newCompleted" /></td>
                 <td><input type='text' id="newName" /></td>
                 <td><input type='button' id="newCreate" value='Create' /></td>
             </tr>
             </thead>
             <tbody></tbody>
-            </table>
-        <!--</section>
-    </div>-->
+            </table>-->
+        </section>
+    </div>
 </body>
 </html>

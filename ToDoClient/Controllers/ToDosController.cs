@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.Web.Http;
 using ToDoClient.Models;
 using ToDoClient.Services;
@@ -20,7 +22,9 @@ namespace ToDoClient.Controllers
         public IList<ToDoItemViewModel> Get()
         {
             var userId = userService.GetOrCreateUser();
+            Debug.Write("Get");
             return todoService.GetItems(userId);
+
         }
 
         /// <summary>
@@ -31,6 +35,7 @@ namespace ToDoClient.Controllers
         {
             todo.UserId = userService.GetOrCreateUser();
             todoService.UpdateItem(todo);
+            Debug.Write("Put");
         }
 
         /// <summary>
@@ -40,6 +45,7 @@ namespace ToDoClient.Controllers
         public void Delete(int id)
         {
             todoService.DeleteItem(id);
+            Debug.Write("Delete");
         }
 
         /// <summary>
@@ -50,6 +56,7 @@ namespace ToDoClient.Controllers
         {
             todo.UserId = userService.GetOrCreateUser();
             todoService.CreateItem(todo);
+            Debug.Write("Post");
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿function TodoController($scope) {
-    $scope.appTitle = "Katie's Awesome ToDo App";
-    $scope.appHeadline = "This one will save to local storage!";
+    $scope.appTitle = "ToDo App";
+    $scope.appHeadline = "Team9";
     $scope.saved = localStorage.getItem('todos');
     $scope.todos = (localStorage.getItem('todos') !== null) ? JSON.parse($scope.saved) : [{ text: 'Learn AngularJS', done: false }, { text: 'Build an Angular app', done: false }];
     localStorage.setItem('todos', JSON.stringify($scope.todos));
@@ -13,9 +13,8 @@
         $scope.todoText = ''; //clear the input after adding
         localStorage.setItem('todos', JSON.stringify($scope.todos));
 
-        var isCompleted = $('#newCompleted')[0].checked;
-        var name = $('#newName')[0].value;
-        tasksManager.createTask(isCompleted, name)
+        //calling controller method
+        tasksManager.createTask($scope.todo.done,$scope.todoText)
             .then(tasksManager.loadTasks);
     };
 
