@@ -18,3 +18,13 @@ C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\ORM\bin\D
 C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\ORM\obj\Debug\ORM.csprojResolveAssemblyReference.cache
 C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\ORM\obj\Debug\ORM.dll
 C:\Users\Polina\Documents\git\EPAM.RD.2017.A.Team9\IntermediateService\ORM\obj\Debug\ORM.pdb
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\ORM\bin\Debug\ORM.dll.config
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\ORM\bin\Debug\ORM.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\ORM\bin\Debug\ORM.pdb
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\ORM\bin\Debug\EntityFramework.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\ORM\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\ORM\bin\Debug\EntityFramework.xml
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\ORM\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\ORM\obj\Debug\ORM.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\ORM\obj\Debug\ORM.dll
+D:\Documents\GitHub\EPAM.RD.2017.A.Team9\IntermediateService\ORM\obj\Debug\ORM.pdb
